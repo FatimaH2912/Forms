@@ -1,0 +1,38 @@
+```gitignore
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Build output
+dist/
+build/
+
+# Backend uploads
+backend/src/uploads/*
+
+# Keep the uploads folder itself
+!backend/src/uploads/.gitkeep
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+```
